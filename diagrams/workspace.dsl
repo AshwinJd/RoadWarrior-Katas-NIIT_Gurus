@@ -1,4 +1,5 @@
 workspace {
+    !adrs doc/adr
 
     model {
 
