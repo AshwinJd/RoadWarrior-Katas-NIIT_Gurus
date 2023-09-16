@@ -1,0 +1,1300 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-09-16T17:42:30Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CgogICAgICAgICMjIyMgU0VDVElPTiAxOiBTWVNURU0gTEFORFNDQVBFICMjIyMKCiAgICAgICAgCgogICAgICAgIHRyYXZlbGVyID0gcGVyc29uICJUcmF2ZWxlciIKICAgICAgICAKICAgICAgICBlbWFpbFNlcnZpY2VQcm92aWRlciA9IHNvZnR3YXJlU3lzdGVtICJFbWFpbCBTZXJ2aWNlIFByb3ZpZGVyIiB7CiAgICAgICAgICAgIHRhZ3MgIkV4dGVybmFsIFN5c3RlbSIKICAgICAgICB9CiAgICAgICAgZ2RzUGxhdGZvcm0gPSBzb2Z0d2FyZVN5c3RlbSAiR0RTIFBsYXRmb3JtIiB7CiAgICAgICAgICAgIHRhZ3MgIkV4dGVybmFsIFN5c3RlbSIKICAgICAgICB9CiAgICAgICAgc2VydmljZVByb3ZpZGVyVHJhY2tpbmdTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiU2VydmljZSBQcm92aWRlciBTeXN0ZW0iICJGb3IgdHJhY2tpbmcgdXBkYXRlcyBpbiBmbGlnaHQgc2NoZWR1bGVzLCBhZ2VuY3kgYm9va2luZ3MsIGNhciByZW50YWxzLCBldGMiIHsKICAgICAgICAgICAgdGFncyAiRXh0ZXJuYWwgU3lzdGVtIgogICAgICAgIH0KICAgICAgICBub3RpZmljYXRpb25TZXJ2aWNlID0gc29mdHdhcmVTeXN0ZW0gIk5vdGlmaWNhdGlvbiBTZXJ2aWNlIiAiVGV4dCBhbmQgRW1haWwgbm90aWZpY2F0aW9uIHNlcnZpY2UiIHsKICAgICAgICAgICAgdGFncyAiRXh0ZXJuYWwgU3lzdGVtIgogICAgICAgIH0KICAgICAgICB0cmFja2luZ0FQSSA9IHNvZnR3YXJlU3lzdGVtICJUcmFja2luZyBBUElzIiAiQVBJcyBmb3IgdHJhY2tpbmcgQm9va2luZ3MsIEZsaWdodHMsIENhciBSZW50YWxzLCBIb3RlbCBSZXNlcnZhdGlvbnMiIHsKICAgICAgICAgICAgdGFncyAiRXh0ZXJuYWwgU3lzdGVtIgogICAgICAgIH0KICAgICAgICBzb2NpYWxOZXR3b3JrID0gc29mdHdhcmVTeXN0ZW0gIlNvY2lhbCBOZXR3b3JrIiAiRmFjZWJvb2sgLyBYLmNvbSIgewogICAgICAgICAgICB0YWdzICJFeHRlcm5hbCBTeXN0ZW0iCiAgICAgICAgfQoKICAgICAgICBncm91cCAiVGhlIFJvYWQgV2FycmlvciIgewogICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJXZWIgQXBwbGljYXRpb24iCgogICAgICAgICAgICBtb2JpbGVBcHBsaWNhdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJNb2JpbGUgQXBwbGljYXRpb24iCgogICAgICAgICAgICBsb2FkQmFsYW5jZXIgPSBzb2Z0d2FyZVN5c3RlbSAiTG9hZCBCYWxhbmNlciIKCiAgICAgICAgICAgIG9pZGNQcm92aWRlciA9IHNvZnR3YXJlU3lzdGVtICJPSURDIFByb3ZpZGVyIiAiUHJvdmlkZXMgRmVkZXJhdGVkIEF1dGhlbnRpY2F0aW9uIGZvciBtdWx0aXBsZSBjbGllbnRzIgoKICAgICAgICAgICAgdHJpcE1hbmFnZW1lbnRTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiVHJpcCBNYW5hZ2VtZW50IiB7CiAgICAgICAgICAgICAgICB0cmlwTWFuYWdlbWVudEVuZHBvaW50ID0gY29udGFpbmVyICJUcmlwIEVuZHBvaW50IiB7CiAgICAgICAgICAgICAgICAgICAgcmVzdENvbnRyb2xsZXIgPSBjb21wb25lbnQgIlJlc3QgQ29udHJvbGxlciIKICAgICAgICAgICAgICAgICAgICB3ZWJzb2NrZXRDb250cm9sbGVyID0gY29tcG9uZW50ICJXZWJzb2NrZXQgQ29udHJvbGxlciIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJlYWx0aW1lRGF0YWJhc2UgPSBjb250YWluZXIgIlJlYWx0aW1lIERhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiRGF0YWJhc2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZWFsdGltZVRyYWNraW5nU3Vic2NyaWJlciA9IGNvbnRhaW5lciAiUmVhbHRpbWUgVHJhY2tpbmcgU3Vic2NyaWJlciIgewogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGxvYWRCYWxhbmNlciAtPiB0cmlwTWFuYWdlbWVudEVuZHBvaW50ICJQcm94aWVzIgogICAgICAgICAgICAgICAgcmVhbHRpbWVUcmFja2luZ1N1YnNjcmliZXIgLT4gcmVhbHRpbWVEYXRhYmFzZSAiVXBkYXRlcyBlbnRpdGllcyBhbmQgYWdncmVnYXRlcyBpbiIKICAgICAgICAgICAgICAgIGxvYWRCYWxhbmNlciAtPiByZXN0Q29udHJvbGxlciAiUHJveGllcyIKICAgICAgICAgICAgICAgIGxvYWRCYWxhbmNlciAtPiB3ZWJzb2NrZXRDb250cm9sbGVyICJQcm94aWVzIgogICAgICAgICAgICAgICAgd2Vic29ja2V0Q29udHJvbGxlciAtPiByZWFsdGltZURhdGFiYXNlICJTdWJzY3JpYmVzIHRvIGFnZ3JlZ2F0ZSBjaGFuZ2VzIgogICAgICAgICAgICAgICAgcmVzdENvbnRyb2xsZXIgLT4gcmVhbHRpbWVEYXRhYmFzZSAiUGVyZm9ybXMgQ1JVRCBvcGVyYXRpb25zIG9uIgogICAgICAgICAgICB9CgogICAgICAgICAgICByZWFsdGltZVRyYWNraW5nU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIlJlYWx0aW1lIFRyYWNraW5nIiB7CiAgICAgICAgICAgICAgICBncmFwaERhdGFiYXNlID0gY29udGFpbmVyICJHcmFwaCBEYXRhYmFzZSIgIlVzZWQgdG8gbG9va3VwIE9ic2VydmVyLCBCb29raW5nLCBhbmQgU2VydmljZVByb3ZpZGVyIGluZm9ybWF0aW9uIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiRGF0YWJhc2UiCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgd2ViaG9va0VuZHBvaW50ID0gY29udGFpbmVyICJXZWJob29rIEVuZHBvaW50IiAiVXNlZCB0byByZXRyaWV2ZSBub3RpZmljYXRpb25zIGZyb20gQWdlbmNpZXMiIHsKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBzdWJzY3JpYmVyID0gY29udGFpbmVyICJTdWJjcmliZXIiICJTdWJzY3JpYmVzIHRvIGRvbWFpbiBldmVudHMiCgogICAgICAgICAgICAgICAgbm90aWZpZXIgPSBjb250YWluZXIgIk5vdGlmaWVyIgogICAgICAgICAgICAgICAgbm90aWZpZXIgLT4gbm90aWZpY2F0aW9uU2VydmljZSAidXNlcyIKICAgICAgICAgICAgICAgIHRyaXBNYW5hZ2VtZW50U3lzdGVtIC0+IG5vdGlmaWVyICJTdWJzY3JpYmVzIHRvIHVwZGF0ZSIKICAgICAgICAgICAgICAgIHN1YnNjcmliZXIgLT4gdHJpcE1hbmFnZW1lbnRTeXN0ZW0gIlN1YnNjcmliZXMgdG8gdXBkYXRlcyIKCiAgICAgICAgICAgICAgICB0cmFja2luZ0NvbnRyb2xsZXJBY3RvciA9IGNvbnRhaW5lciAiVHJhY2tpbmcgQ29udHJvbGxlciBBY3RvciIgewogICAgICAgICAgICAgICAgICAgIHNjaGVkdWxlciA9IGNvbXBvbmVudCAiU2NoZWR1bGVyIiAiQ3JlYXRlcyBhdXRvLXNjYWxpbmcgd29ya2Zsb3dzIgogICAgICAgICAgICAgICAgICAgIHN1cGVydmlzb3IgPSBjb21wb25lbnQgIlN1cGVydmlzb3IiCiAgICAgICAgICAgICAgICAgICAgd29ya2Zsb3cgPSBjb21wb25lbnQgIldvcmtmbG93IgogICAgICAgICAgICAgICAgICAgIGFnZW50ID0gY29tcG9uZW50ICJBZ2VudCIKICAgICAgICAgICAgICAgICAgICBzdGF0ZVN0b3JlID0gY29tcG9uZW50ICJTdGF0ZSBTdG9yZSIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJNZXNzYWdlIEJ1cyIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHNjaGVkdWxlciAtPiB3b3JrZmxvdyAiQ3JlYXRlcyBhbmQgQ29udHJvbHMiCiAgICAgICAgICAgICAgICAgICAgd29ya2Zsb3cgLT4gYWdlbnQgIlVzZXMiCiAgICAgICAgICAgICAgICAgICAgYWdlbnQgLT4gdHJhY2tpbmdBUEkgIlJldHJpZXZlcyB0cmFja2luZyBpbmZvcm1hdGlvbiBmcm9tIgogICAgICAgICAgICAgICAgICAgIHN1cGVydmlzb3IgLT4gd29ya2Zsb3cgIk1vbml0b3JzIgogICAgICAgICAgICAgICAgICAgIHdvcmtmbG93IC0+IHNjaGVkdWxlciAiUmVwb3J0IFRlbGVtZXRyeSIKICAgICAgICAgICAgICAgICAgICB3b3JrZmxvdyAtPiBub3RpZmllciAiU2VuZCB1cGRhdGUgcmVwb3J0cyIKICAgICAgICAgICAgICAgICAgICB3b3JrZmxvdyAtPiBncmFwaERhdGFiYXNlICJSZWFkcyBmcm9tIgogICAgICAgICAgICAgICAgICAgIHNjaGVkdWxlciAtPiBzdGF0ZVN0b3JlICJTdG9yZXMgc3RhdGUgaW4iCiAgICAgICAgICAgICAgICAgICAgc3VwZXJ2aXNvciAtPiBzdGF0ZVN0b3JlICJVcGRhdGVkIHN0YXRlIGluIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVtYWlsUHJvY2Vzc2luZ1N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJFbWFpbCBQcm9jZXNzaW5nIgogICAgICAgICAgICBhbmFseXRpY3NTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQW5hbHl0aWNzIFN5c3RlbSIKICAgICAgICB9CgogICAgICAgIHRyYXZlbGVyIC0+IHdlYkFwcGxpY2F0aW9uICJVc2VzIgogICAgICAgIHRyYXZlbGVyIC0+IG1vYmlsZUFwcGxpY2F0aW9uICJVc2VzIgogICAgICAgIG1vYmlsZUFwcGxpY2F0aW9uIC0+IGxvYWRCYWxhbmNlciAiQ29ubmVjdHMgdG8iCiAgICAgICAgd2ViQXBwbGljYXRpb24gLT4gbG9hZEJhbGFuY2VyICJDb25uZWN0cyB0byIKICAgICAgICBzZXJ2aWNlUHJvdmlkZXJUcmFja2luZ1N5c3RlbSAtPiBsb2FkQmFsYW5jZXIgIlJlcG9ydHMgdXBkYXRlcyIKICAgICAgICBsb2FkQmFsYW5jZXIgLT4gb2lkY1Byb3ZpZGVyICJQcm94aWVzIgogICAgICAgIGxvYWRCYWxhbmNlciAtPiBhbmFseXRpY3NTeXN0ZW0gIlByb3hpZXMiCiAgICAgICAgbG9hZEJhbGFuY2VyIC0+IGVtYWlsUHJvY2Vzc2luZ1N5c3RlbSAiUHJveGllcyIKICAgICAgICB0cmlwTWFuYWdlbWVudFN5c3RlbSAtPiBnZHNQbGF0Zm9ybSAiUmV0cmlldmVzIGJvb2tpbmcgZGV0YWlscyBmcm9tIgogICAgICAgIHRyaXBNYW5hZ2VtZW50U3lzdGVtIC0+IHNlcnZpY2VQcm92aWRlclRyYWNraW5nU3lzdGVtICJSZXRyaWV2ZXMgYm9va2luZyBkZXRhaWxzIGZyb20iCiAgICAgICAgZW1haWxQcm9jZXNzaW5nU3lzdGVtIC0+IHRyaXBNYW5hZ2VtZW50U3lzdGVtICJSZXBvcnQgTmV3IEJvb2tpbmdzIgogICAgICAgIGVtYWlsUHJvY2Vzc2luZ1N5c3RlbSAtPiBlbWFpbFNlcnZpY2VQcm92aWRlciAiUG9sbHMiCiAgICAgICAgcmVhbHRpbWVUcmFja2luZ1N1YnNjcmliZXIgLT4gcmVhbHRpbWVUcmFja2luZ1N5c3RlbSAiU3Vic2NyaWJlcyB0byB1cGRhdGVzIgogICAgICAgIHdlYkFwcGxpY2F0aW9uIC0+IHNvY2lhbE5ldHdvcmsgIlB1Ymxpc2hlcyBDb250ZW50IFRvIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1MYW5kc2NhcGUgVGhlUm9hZFdhcnJpb3JMYW5kc2NhcGUgIlRoZSBSb2FkIFdhcnJpb3IgTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IHJlYWx0aW1lVHJhY2tpbmdTeXN0ZW0gIlJlYWx0aW1lVHJhY2tpbmdTeXN0ZW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciByZWFsdGltZVRyYWNraW5nU3lzdGVtIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCB0cmFja2luZ0NvbnRyb2xsZXJBY3RvciB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IGVtYWlsUHJvY2Vzc2luZ1N5c3RlbSAiRW1haWxQcm9jZXNzaW5nU3lzdGVtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IHRyaXBNYW5hZ2VtZW50U3lzdGVtICJ0cmlwTWFuYWdlbWVudCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHRyaXBNYW5hZ2VtZW50U3lzdGVtICJUcmlwTWFuYWdlbWVudENvbnRhaW5lciIgewogICAgICAgICAgICBpbmNsdWRlICogd2ViQXBwbGljYXRpb24KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IHRyaXBNYW5hZ2VtZW50RW5kcG9pbnQgIlRyaXBNYW5hZ2VtZW50RW5kcG9pbnRDb21wb25lbnQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqIHdlYkFwcGxpY2F0aW9uCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIHN5c3RlbUNvbnRleHQgYW5hbHl0aWNzU3lzdGVtICJBbmFseXRpY3NTeXN0ZW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAKICAgICAgICB0aGVtZSBkZWZhdWx0CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkV4dGVybmFsIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBncmV5CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIk1lc3NhZ2UgQnVzIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIGdyZWVuCiAgICAgICAgICAgICAgICB3aWR0aCAyMDAwCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "traveler"
+      },
+      "name" : "Traveler",
+      "relationships" : [ {
+        "id" : "59",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4179ebd1-2c85-4f74-9f14-11073b27f0f4"
+        },
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Uses"
+      }, {
+        "id" : "58",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "5a6b0113-cde0-460a-aa4b-08fe9cd78936"
+        },
+        "sourceId" : "1",
+        "destinationId" : "8",
+        "description" : "Uses"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "26",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "realtimetrackingsystem"
+      },
+      "name" : "Realtime Tracking",
+      "relationships" : [ {
+        "id" : "47",
+        "sourceId" : "26",
+        "destinationId" : "6",
+        "description" : "Retrieves tracking information from",
+        "linkedRelationshipId" : "45"
+      }, {
+        "id" : "32",
+        "sourceId" : "26",
+        "destinationId" : "5",
+        "description" : "uses",
+        "linkedRelationshipId" : "31"
+      }, {
+        "id" : "36",
+        "sourceId" : "26",
+        "destinationId" : "12",
+        "description" : "Subscribes to updates",
+        "linkedRelationshipId" : "35"
+      } ],
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "28",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "webhookendpoint"
+        },
+        "name" : "Webhook Endpoint",
+        "description" : "Used to retrieve notifications from Agencies",
+        "documentation" : { }
+      }, {
+        "id" : "29",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "subscriber"
+        },
+        "name" : "Subcriber",
+        "description" : "Subscribes to domain events",
+        "relationships" : [ {
+          "id" : "35",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "83bc1c4e-abf6-4e9c-b012-02f0efd008cf"
+          },
+          "sourceId" : "29",
+          "destinationId" : "12",
+          "description" : "Subscribes to updates"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "30",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "notifier"
+        },
+        "name" : "Notifier",
+        "relationships" : [ {
+          "id" : "31",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "374e37b3-0f96-4176-9f17-79ff8576612e"
+          },
+          "sourceId" : "30",
+          "destinationId" : "5",
+          "description" : "uses"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "27",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "graphdatabase"
+        },
+        "name" : "Graph Database",
+        "description" : "Used to lookup Observer, Booking, and ServiceProvider information",
+        "documentation" : { }
+      }, {
+        "id" : "37",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "trackingcontrolleractor"
+        },
+        "name" : "Tracking Controller Actor",
+        "relationships" : [ {
+          "id" : "46",
+          "sourceId" : "37",
+          "destinationId" : "6",
+          "description" : "Retrieves tracking information from",
+          "linkedRelationshipId" : "45"
+        }, {
+          "id" : "51",
+          "sourceId" : "37",
+          "destinationId" : "30",
+          "description" : "Send update reports",
+          "linkedRelationshipId" : "50"
+        }, {
+          "id" : "53",
+          "sourceId" : "37",
+          "destinationId" : "27",
+          "description" : "Reads from",
+          "linkedRelationshipId" : "52"
+        } ],
+        "components" : [ {
+          "id" : "38",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "scheduler"
+          },
+          "name" : "Scheduler",
+          "description" : "Creates auto-scaling workflows",
+          "relationships" : [ {
+            "id" : "54",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "8d12eba1-fdaf-4970-b324-244979b003db"
+            },
+            "sourceId" : "38",
+            "destinationId" : "42",
+            "description" : "Stores state in"
+          }, {
+            "id" : "43",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "3c9f4818-1a45-46e9-9017-2289c679c4db"
+            },
+            "sourceId" : "38",
+            "destinationId" : "40",
+            "description" : "Creates and Controls"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "42",
+          "tags" : "Element,Component,Message Bus",
+          "properties" : {
+            "structurizr.dsl.identifier" : "statestore"
+          },
+          "name" : "State Store",
+          "documentation" : { }
+        }, {
+          "id" : "41",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "agent"
+          },
+          "name" : "Agent",
+          "relationships" : [ {
+            "id" : "45",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "6b0c36ef-f8d5-4b02-87cd-c64b64f4a01e"
+            },
+            "sourceId" : "41",
+            "destinationId" : "6",
+            "description" : "Retrieves tracking information from"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "40",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "workflow"
+          },
+          "name" : "Workflow",
+          "relationships" : [ {
+            "id" : "50",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "110e1c15-eb2b-4391-a38c-2533f8c93baf"
+            },
+            "sourceId" : "40",
+            "destinationId" : "30",
+            "description" : "Send update reports"
+          }, {
+            "id" : "44",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "7da5c598-2ee5-4ae9-aca6-e6d57140aee0"
+            },
+            "sourceId" : "40",
+            "destinationId" : "41",
+            "description" : "Uses"
+          }, {
+            "id" : "49",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "7599aeba-0d27-4f02-be3a-3242a4e2ce7f"
+            },
+            "sourceId" : "40",
+            "destinationId" : "38",
+            "description" : "Report Telemetry"
+          }, {
+            "id" : "52",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "0d1dce44-4bf2-48ab-b51d-712bbc66edc8"
+            },
+            "sourceId" : "40",
+            "destinationId" : "27",
+            "description" : "Reads from"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "39",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "supervisor"
+          },
+          "name" : "Supervisor",
+          "relationships" : [ {
+            "id" : "55",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "9c8474fa-4115-4b5c-bdba-f0fc9d5c0946"
+            },
+            "sourceId" : "39",
+            "destinationId" : "42",
+            "description" : "Updated state in"
+          }, {
+            "id" : "48",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "3d655589-5ecc-4396-8784-7259a969acc2"
+            },
+            "sourceId" : "39",
+            "destinationId" : "40",
+            "description" : "Monitors"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "socialnetwork"
+      },
+      "name" : "Social Network",
+      "description" : "Facebook / X.com",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "10",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "loadbalancer"
+      },
+      "name" : "Load Balancer",
+      "relationships" : [ {
+        "id" : "63",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "530f4f3a-2725-4fab-ac6d-b880aea203d6"
+        },
+        "sourceId" : "10",
+        "destinationId" : "11",
+        "description" : "Proxies"
+      }, {
+        "id" : "21",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "48e28459-d6db-468d-90bf-efbdbc24a09e"
+        },
+        "sourceId" : "10",
+        "destinationId" : "14",
+        "description" : "Proxies"
+      }, {
+        "id" : "64",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "3529d089-9de8-487a-97e1-a70186e2632a"
+        },
+        "sourceId" : "10",
+        "destinationId" : "57",
+        "description" : "Proxies"
+      }, {
+        "id" : "22",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d8c922a0-fa57-47cb-ab2b-923cf4d6b774"
+        },
+        "sourceId" : "10",
+        "destinationId" : "15",
+        "description" : "Proxies"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "b40e814c-7eed-427e-bd5a-e86c65db39e6"
+        },
+        "sourceId" : "10",
+        "destinationId" : "13",
+        "description" : "Proxies"
+      }, {
+        "id" : "65",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0e2ff2a6-65ac-4362-bd57-e7b2882bb076"
+        },
+        "sourceId" : "10",
+        "destinationId" : "56",
+        "description" : "Proxies"
+      }, {
+        "id" : "19",
+        "sourceId" : "10",
+        "destinationId" : "12",
+        "description" : "Proxies",
+        "linkedRelationshipId" : "18"
+      } ],
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "56",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "emailprocessingsystem"
+      },
+      "name" : "Email Processing",
+      "relationships" : [ {
+        "id" : "69",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c9a66c22-c456-4dff-8a46-5702989a2f23"
+        },
+        "sourceId" : "56",
+        "destinationId" : "2",
+        "description" : "Polls"
+      }, {
+        "id" : "68",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "1d790a8c-563b-4f4e-bb94-d5a45f8713e7"
+        },
+        "sourceId" : "56",
+        "destinationId" : "12",
+        "description" : "Report New Bookings"
+      } ],
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "57",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "analyticssystem"
+      },
+      "name" : "Analytics System",
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "notificationservice"
+      },
+      "name" : "Notification Service",
+      "description" : "Text and Email notification service",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "emailserviceprovider"
+      },
+      "name" : "Email Service Provider",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "trackingapi"
+      },
+      "name" : "Tracking APIs",
+      "description" : "APIs for tracking Bookings, Flights, Car Rentals, Hotel Reservations",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "11",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "oidcprovider"
+      },
+      "name" : "OIDC Provider",
+      "description" : "Provides Federated Authentication for multiple clients",
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "serviceprovidertrackingsystem"
+      },
+      "name" : "Service Provider System",
+      "description" : "For tracking updates in flight schedules, agency bookings, car rentals, etc",
+      "relationships" : [ {
+        "id" : "62",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2af675e5-ac5e-4c4e-8cca-5dd4dbc7a34a"
+        },
+        "sourceId" : "4",
+        "destinationId" : "10",
+        "description" : "Reports updates"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mobileapplication"
+      },
+      "name" : "Mobile Application",
+      "relationships" : [ {
+        "id" : "60",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "da656e62-4c58-4c36-bf7d-c03514cc23d4"
+        },
+        "sourceId" : "9",
+        "destinationId" : "10",
+        "description" : "Connects to"
+      } ],
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "12",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "tripmanagementsystem"
+      },
+      "name" : "Trip Management",
+      "relationships" : [ {
+        "id" : "33",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "f2e8a4ce-dae3-4926-8cd9-6280d241dae9"
+        },
+        "sourceId" : "12",
+        "destinationId" : "30",
+        "description" : "Subscribes to update"
+      }, {
+        "id" : "66",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d329bd80-849f-4642-9090-d56b4d6cd5cd"
+        },
+        "sourceId" : "12",
+        "destinationId" : "3",
+        "description" : "Retrieves booking details from"
+      }, {
+        "id" : "34",
+        "sourceId" : "12",
+        "destinationId" : "26",
+        "description" : "Subscribes to update",
+        "linkedRelationshipId" : "33"
+      }, {
+        "id" : "67",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ce7ed8bc-780f-4bfc-8b52-b615e6cb9cc6"
+        },
+        "sourceId" : "12",
+        "destinationId" : "4",
+        "description" : "Retrieves booking details from"
+      } ],
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "17",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "realtimetrackingsubscriber"
+        },
+        "name" : "Realtime Tracking Subscriber",
+        "relationships" : [ {
+          "id" : "20",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3b7223da-4126-4c94-83ba-db2f10b0979e"
+          },
+          "sourceId" : "17",
+          "destinationId" : "16",
+          "description" : "Updates entities and aggregates in"
+        }, {
+          "id" : "70",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e51dbc4e-b129-4405-8f97-33dd332b89bd"
+          },
+          "sourceId" : "17",
+          "destinationId" : "26",
+          "description" : "Subscribes to updates"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "tripmanagementendpoint"
+        },
+        "name" : "Trip Endpoint",
+        "relationships" : [ {
+          "id" : "24",
+          "sourceId" : "13",
+          "destinationId" : "16",
+          "description" : "Subscribes to aggregate changes",
+          "linkedRelationshipId" : "23"
+        } ],
+        "components" : [ {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "restcontroller"
+          },
+          "name" : "Rest Controller",
+          "relationships" : [ {
+            "id" : "25",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "6851cb5f-d98b-4481-bb19-938d1a810f0e"
+            },
+            "sourceId" : "14",
+            "destinationId" : "16",
+            "description" : "Performs CRUD operations on"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "websocketcontroller"
+          },
+          "name" : "Websocket Controller",
+          "relationships" : [ {
+            "id" : "23",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "e908a801-f893-47fb-b949-fa306c65b18c"
+            },
+            "sourceId" : "15",
+            "destinationId" : "16",
+            "description" : "Subscribes to aggregate changes"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "realtimedatabase"
+        },
+        "name" : "Realtime Database",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "webapplication"
+      },
+      "name" : "Web Application",
+      "relationships" : [ {
+        "id" : "71",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "a567eb41-8d82-4ecf-8c5e-b89ca997f8b0"
+        },
+        "sourceId" : "8",
+        "destinationId" : "7",
+        "description" : "Publishes Content To"
+      }, {
+        "id" : "61",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "f6d3100f-f1ac-4c05-af81-11a364c965f1"
+        },
+        "sourceId" : "8",
+        "destinationId" : "10",
+        "description" : "Connects to"
+      } ],
+      "group" : "The Road Warrior",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "gdsplatform"
+      },
+      "name" : "GDS Platform",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "TheRoadWarriorLandscape",
+      "order" : 1,
+      "description" : "The Road Warrior Landscape",
+      "dimensions" : {
+        "width" : 4086,
+        "height" : 4400
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 220,
+        "y" : 2099
+      }, {
+        "id" : "12",
+        "x" : 1607,
+        "y" : 2699
+      }, {
+        "id" : "56",
+        "x" : 1278,
+        "y" : 2099
+      }, {
+        "id" : "57",
+        "x" : 2028,
+        "y" : 2099
+      }, {
+        "id" : "26",
+        "x" : 1607,
+        "y" : 3299
+      }, {
+        "id" : "1",
+        "x" : 1678,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 2686,
+        "y" : 2699
+      }, {
+        "id" : "3",
+        "x" : 2686,
+        "y" : 3299
+      }, {
+        "id" : "4",
+        "x" : 3436,
+        "y" : 3299
+      }, {
+        "id" : "5",
+        "x" : 1232,
+        "y" : 3899
+      }, {
+        "id" : "6",
+        "x" : 1982,
+        "y" : 3899
+      }, {
+        "id" : "7",
+        "x" : 2686,
+        "y" : 1499
+      }, {
+        "id" : "8",
+        "x" : 2028,
+        "y" : 899
+      }, {
+        "id" : "9",
+        "x" : 1278,
+        "y" : 899
+      }, {
+        "id" : "10",
+        "x" : 1278,
+        "y" : 1499
+      } ],
+      "relationships" : [ {
+        "id" : "61"
+      }, {
+        "id" : "71"
+      }, {
+        "id" : "60"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "62",
+        "vertices" : [ {
+          "x" : 3286,
+          "y" : 2699
+        }, {
+          "x" : 2628,
+          "y" : 2099
+        } ]
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 1982,
+          "y" : 3149
+        } ]
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 1682,
+          "y" : 3149
+        } ]
+      }, {
+        "id" : "67",
+        "vertices" : [ {
+          "x" : 3286,
+          "y" : 3299
+        } ]
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "69",
+        "vertices" : [ {
+          "x" : 1878,
+          "y" : 2399
+        } ]
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "59"
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 1128,
+          "y" : 2099
+        }, {
+          "x" : 1128,
+          "y" : 2399
+        } ]
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "EmailProcessingSystem",
+      "order" : 5,
+      "softwareSystemId" : "56",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1970,
+        "height" : 2158
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "56",
+        "x" : 637,
+        "y" : 929
+      }, {
+        "id" : "12",
+        "x" : 437,
+        "y" : 1529
+      }, {
+        "id" : "2",
+        "x" : 1295,
+        "y" : 1529
+      }, {
+        "id" : "10",
+        "x" : 483,
+        "y" : 329
+      } ],
+      "relationships" : [ {
+        "id" : "65"
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 487,
+          "y" : 929
+        }, {
+          "x" : 487,
+          "y" : 1229
+        } ]
+      } ]
+    }, {
+      "key" : "AnalyticsSystem",
+      "order" : 9,
+      "softwareSystemId" : "57",
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 1558
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "57",
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "10",
+        "x" : 329,
+        "y" : 329
+      } ],
+      "relationships" : [ {
+        "id" : "64"
+      } ]
+    }, {
+      "key" : "RealtimeTrackingSystem",
+      "order" : 2,
+      "softwareSystemId" : "26",
+      "dimensions" : {
+        "width" : 1600,
+        "height" : 1920
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "12",
+        "x" : 574,
+        "y" : 219
+      }, {
+        "id" : "26",
+        "x" : 574,
+        "y" : 819
+      }, {
+        "id" : "5",
+        "x" : 199,
+        "y" : 1419
+      }, {
+        "id" : "6",
+        "x" : 949,
+        "y" : 1419
+      } ],
+      "relationships" : [ {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 949,
+          "y" : 669
+        } ]
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 649,
+          "y" : 669
+        } ]
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "47"
+      } ]
+    }, {
+      "key" : "tripManagement",
+      "order" : 6,
+      "softwareSystemId" : "12",
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 2720,
+        "height" : 2758
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "12",
+        "x" : 591,
+        "y" : 1529
+      }, {
+        "id" : "56",
+        "x" : 637,
+        "y" : 929
+      }, {
+        "id" : "3",
+        "x" : 1295,
+        "y" : 2129
+      }, {
+        "id" : "26",
+        "x" : 545,
+        "y" : 2129
+      }, {
+        "id" : "4",
+        "x" : 2045,
+        "y" : 2129
+      }, {
+        "id" : "10",
+        "x" : 637,
+        "y" : 329
+      } ],
+      "relationships" : [ {
+        "id" : "36"
+      }, {
+        "id" : "62",
+        "vertices" : [ {
+          "x" : 1237,
+          "y" : 929
+        } ]
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 487,
+          "y" : 929
+        }, {
+          "x" : 487,
+          "y" : 1229
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "TripManagementContainer",
+      "order" : 7,
+      "softwareSystemId" : "12",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 2412,
+        "height" : 2620
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 329,
+        "y" : 1408
+      }, {
+        "id" : "26",
+        "x" : 1737,
+        "y" : 2008
+      }, {
+        "id" : "16",
+        "x" : 658,
+        "y" : 2008
+      }, {
+        "id" : "17",
+        "x" : 1079,
+        "y" : 1408
+      }, {
+        "id" : "8",
+        "x" : 329,
+        "y" : 208
+      }, {
+        "id" : "10",
+        "x" : 329,
+        "y" : 808
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "70"
+      }, {
+        "id" : "61"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "20"
+      } ]
+    }, {
+      "key" : "Container-001",
+      "order" : 3,
+      "softwareSystemId" : "26",
+      "dimensions" : {
+        "width" : 3778,
+        "height" : 1920
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "12",
+        "x" : 3127,
+        "y" : 819
+      }, {
+        "id" : "37",
+        "x" : 219,
+        "y" : 219
+      }, {
+        "id" : "27",
+        "x" : 219,
+        "y" : 819
+      }, {
+        "id" : "5",
+        "x" : 1298,
+        "y" : 1419
+      }, {
+        "id" : "6",
+        "x" : 2377,
+        "y" : 819
+      }, {
+        "id" : "28",
+        "x" : 1719,
+        "y" : 219
+      }, {
+        "id" : "29",
+        "x" : 969,
+        "y" : 219
+      }, {
+        "id" : "30",
+        "x" : 1298,
+        "y" : 819
+      } ],
+      "relationships" : [ {
+        "id" : "51"
+      }, {
+        "id" : "35",
+        "vertices" : [ {
+          "x" : 1569,
+          "y" : 519
+        }, {
+          "x" : 2977,
+          "y" : 819
+        } ]
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "33",
+        "vertices" : [ {
+          "x" : 2827,
+          "y" : 669
+        }, {
+          "x" : 2377,
+          "y" : 669
+        } ]
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "46",
+        "vertices" : [ {
+          "x" : 819,
+          "y" : 519
+        } ]
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-001",
+      "order" : 4,
+      "dimensions" : {
+        "width" : 4578,
+        "height" : 2520
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "37",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "38",
+        "x" : 220,
+        "y" : 220
+      }, {
+        "id" : "27",
+        "x" : 3178,
+        "y" : 1420
+      }, {
+        "id" : "6",
+        "x" : 220,
+        "y" : 2020
+      }, {
+        "id" : "39",
+        "x" : 1357,
+        "y" : 220
+      }, {
+        "id" : "40",
+        "x" : 220,
+        "y" : 820
+      }, {
+        "id" : "41",
+        "x" : 220,
+        "y" : 1420
+      }, {
+        "id" : "30",
+        "x" : 3928,
+        "y" : 1420
+      }, {
+        "id" : "42",
+        "x" : 970,
+        "y" : 820
+      } ],
+      "relationships" : [ {
+        "id" : "50",
+        "vertices" : [ {
+          "x" : 820,
+          "y" : 1120
+        }, {
+          "x" : 3778,
+          "y" : 1420
+        } ]
+      }, {
+        "id" : "52",
+        "vertices" : [ {
+          "x" : 820,
+          "y" : 1120
+        } ]
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "43",
+        "vertices" : [ {
+          "x" : 295,
+          "y" : 670
+        } ]
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "49",
+        "vertices" : [ {
+          "x" : 595,
+          "y" : 670
+        } ]
+      } ]
+    }, {
+      "key" : "TripManagementEndpointComponent",
+      "order" : 8,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 2516
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "13",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "14",
+        "x" : 1079,
+        "y" : 1408
+      }, {
+        "id" : "15",
+        "x" : 329,
+        "y" : 1408
+      }, {
+        "id" : "16",
+        "x" : 704,
+        "y" : 2008
+      }, {
+        "id" : "8",
+        "x" : 704,
+        "y" : 208
+      }, {
+        "id" : "10",
+        "x" : 704,
+        "y" : 808
+      } ],
+      "relationships" : [ {
+        "id" : "61"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "21"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "External System",
+          "background" : "#808080"
+        }, {
+          "tag" : "Message Bus",
+          "width" : 2000,
+          "background" : "#008000",
+          "shape" : "Pipe"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Container-001"
+    }
+  }
+}
