@@ -4,8 +4,6 @@ workspace {
 
         #### SECTION 1: SYSTEM LANDSCAPE ####
 
-        
-
         traveler = person "Traveler"
         
         emailServiceProvider = softwareSystem "Email Service Provider" {
