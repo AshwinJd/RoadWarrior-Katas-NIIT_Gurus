@@ -91,7 +91,38 @@ workspace {
                     supervisor -> stateStore "Updated state in"
                 }
             }
-            emailProcessingSystem = softwareSystem "Email Processing"
+            emailProcessingSystem = softwareSystem "Email Processing" {
+                emailAgents = container "Email Agents" "Agents talk to Email providers" {
+                    agentX = component "Email Agent X" "Polls a specific Email Provider periodically"
+                    agentY = component "Email Agent Y" "Polls a specific Email Provider periodically"
+                }
+                
+                emailAgentScheduler = container "Email Agent Scheduler"
+
+                emailSupervisor = container "Supervisor" 
+
+                emailDatabase = container "Email Database" "Used to store state and user settings for Email polling" {
+                    tags "Database"
+                }
+
+                tripNotifier = container "Trip Notifier"
+
+                emailEndpoint = container "Email Endpoint"
+
+                emailAgents -> emailServiceProvider "polls"
+                emailAgentScheduler -> agentX "schedules"
+                emailAgentScheduler -> agentY "schedules"
+                agentX -> emailServiceProvider
+                agentY -> emailServiceProvider
+                // emailAgentScheduler -> emailAgents "schedules"
+                emailAgentScheduler -> emailDatabase "updates state"
+                emailSupervisor -> emailAgentScheduler "manages"
+                emailSupervisor -> emailDatabase "updates state"
+                emailAgents -> tripNotifier "received new trip"
+                tripNotifier -> tripManagementEndpoint "Reports New Booking"
+                emailEndpoint -> tripNotifier "manual email trip update"
+            }
+
             analyticsSystem = softwareSystem "Analytics System"
         }
 
@@ -105,8 +136,6 @@ workspace {
         loadBalancer -> emailProcessingSystem "Proxies"
         tripManagementSystem -> gdsPlatform "Retrieves booking details from"
         tripManagementSystem -> serviceProviderTrackingSystem "Retrieves booking details from"
-        emailProcessingSystem -> tripManagementSystem "Report New Bookings"
-        emailProcessingSystem -> emailServiceProvider "Polls"
         realtimeTrackingSubscriber -> realtimeTrackingSystem "Subscribes to updates"
         webApplication -> socialNetwork "Publishes Content To"
     }
@@ -136,6 +165,17 @@ workspace {
             include *
             autoLayout
         }
+
+        container emailProcessingSystem "EmailProcessingContainer"{
+            include *
+            autoLayout
+        }
+
+        component emailAgents "EmailAgentContainer" {
+            include *
+            autoLayout
+        }
+
 
         systemContext tripManagementSystem "tripManagement" {
             include *
