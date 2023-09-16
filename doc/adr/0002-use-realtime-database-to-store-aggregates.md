@@ -29,6 +29,6 @@ The following are the rationale for the decision:
 
 While using a Realtime Database to store aggregates and push changes can have multiple merits, but we must consider the following:
 
-- Cost: ongoing costs incurred for using Realtime Database must be included in the project budget.
-- Data Security: Proper security measures must be implemented to protect sensitive user information in the Realtime Database.
-- Development Effort: Integrating a Realtime Database in the application architecture would need significant development effort and maturity.
+- **Cost:** ongoing costs incurred for using Realtime Database must be included in the project budget.
+- **Data Security:** Proper security measures must be implemented to protect sensitive user information in the Realtime Database.
+- **Development Effort:** Integrating a Realtime Database in the application architecture would need significant development effort and maturity.
