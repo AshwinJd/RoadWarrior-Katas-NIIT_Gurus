@@ -10,3 +10,4 @@ Road Warrior is your ultimate travel management solution
 ## Solutions Structure
 1. [ADRs](/doc/adr)
 2. [Solution Diagrams](/diagrams/)
+3. [Event Storming](/diagrams/EventStorming.png)
