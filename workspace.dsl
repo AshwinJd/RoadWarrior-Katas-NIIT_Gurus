@@ -107,11 +107,7 @@ workspace {
                 emailEndpoint = container "Email Endpoint" "Provides API endpoints to receive any new manually forwarded booking details. It also connects with email providers to update forwarding rules."
 
                 emailAgents -> emailServiceProvider "polls"
-                emailAgentScheduler -> emailAgents "schedules"
-        
-                emailAgents -> emailServiceProvider
-      
-                // emailAgentScheduler -> emailAgents "schedules"
+                emailAgentScheduler -> emailAgents "schedules"   
                 emailAgentScheduler -> emailProcessStateStore "updates state"
                 emailSupervisor -> emailAgentScheduler "manages"
                 emailSupervisor -> emailProcessStateStore "updates state"
