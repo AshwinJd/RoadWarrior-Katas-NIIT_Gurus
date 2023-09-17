@@ -12,7 +12,8 @@ Supervising and starting multiple email pollers for different email providers. S
 
 ## Decision
 
-Use Scheduler supervisor pattern to manage set of distributed actions as a single operation. 
+We need to work with multiple email providers and kickoff multiple polling jobs and maintain the state of each polling job and constantly look for any failures.
+We can manage set of distributed actions as a single operation using the Scheduler supervisor pattern.
 
 ## Consequences
 
