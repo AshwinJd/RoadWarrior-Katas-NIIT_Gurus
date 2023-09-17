@@ -35,7 +35,7 @@ workspace {
 
             oidcProvider = softwareSystem "OIDC Provider" "Provides Federated Authentication for multiple clients"
 
-            tripManagementSystem = softwareSystem "Trip Management" {
+            tripManagementSystem = softwareSystem "Trip Management" "Core" {
                 tripManagementEndpoint = container "Trip Endpoint" {
                     restController = component "Rest Controller"
                     websocketController = component "Websocket Controller"
@@ -55,27 +55,26 @@ workspace {
                 restController -> realtimeDatabase "Performs CRUD operations on"
             }
 
-            realtimeTrackingSystem = softwareSystem "Realtime Tracking" {
+            realtimeTrackingSystem = softwareSystem "Realtime Tracking" "Responsible for polling and listening to changes in services and bookings, and notifying the travelers and observers" {
                 graphDatabase = container "Graph Database" "Used to lookup Observer, Booking, and ServiceProvider information" {
                     tags "Database"
                 }
 
-                webhookEndpoint = container "Webhook Endpoint" "Used to retrieve notifications from Agencies" {
-                    
-                }
+                webhookEndpoint = container "Webhook Endpoint" "Listens to push-notifications from Agencies"
 
                 subscriber = container "Subcriber" "Subscribes to domain events"
 
                 notifier = container "Notifier"
                 notifier -> notificationService "uses"
+                webhookEndpoint -> notifier "notifies changes to"
                 tripManagementSystem -> notifier "Subscribes to update"
                 subscriber -> tripManagementSystem "Subscribes to updates"
 
-                trackingControllerActor = container "Tracking Controller Actor" {
-                    scheduler = component "Scheduler" "Creates auto-scaling workflows"
-                    supervisor = component "Supervisor"
-                    workflow = component "Workflow"
-                    agent = component "Agent"
+                trackingControllerActor = container "Tracking Controller Actor" "Responsible for implementing multiple strategies for polling updates" {
+                    scheduler = component "Scheduler" "Creates auto-scaling workflows with multiple strategies, and tracks the status of jobs"
+                    supervisor = component "Supervisor" "Monitors workflow, and marks tasks to be restarted wherever necessary"
+                    workflow = component "Workflow" "Implements multiple strategies to polling and identifying updates from Agency APIs"
+                    agent = component "Agent" "Used by workflow to communicate with external Agencies"
                     stateStore = component "State Store" {
                         tags "Message Bus"
                     }
