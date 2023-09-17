@@ -123,6 +123,7 @@ workspace {
                 emailEndpoint -> tripNotifier "manual email trip update"
                 loadBalancer -> emailEndpoint "Proxies"
                 emailEndpoint -> emailServiceProvider "manages"
+                emailEndpoint -> emailProcessStateStore "store user specific email configurations"
             }
 
             analyticsSystem = softwareSystem "Analytics System"
