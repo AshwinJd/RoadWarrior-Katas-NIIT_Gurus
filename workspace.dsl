@@ -36,14 +36,14 @@ workspace {
             oidcProvider = softwareSystem "OIDC Provider" "Provides Federated Authentication for multiple clients"
 
             tripManagementSystem = softwareSystem "Trip Management" {
-                tripManagementEndpoint = container "Trip Endpoint" {
-                    restController = component "Rest Controller"
-                    websocketController = component "Websocket Controller"
+                tripManagementEndpoint = container "Trip Endpoint" "contains REST API and Websocket implementation used by the Web Application and Mobile Apps"{
+                    restController = component "Rest Controller" "Provides API for accessing Trip information"
+                    websocketController = component "Websocket Controller" "Provides real-time updates on Trip to frontend"
                 }
-                realtimeDatabase = container "Realtime Database" {
+                realtimeDatabase = container "Realtime Database" "Contains Trip iterenary information " {
                     tags "Database"
                 }
-                realtimeTrackingSubscriber = container "Realtime Tracking Subscriber" {
+                realtimeTrackingSubscriber = container "Realtime Tracking Subscriber" "Subscribes to real-time updates in Trip information" {
                     
                 }
 
