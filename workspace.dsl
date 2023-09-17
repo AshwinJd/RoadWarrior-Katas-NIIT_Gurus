@@ -92,28 +92,25 @@ workspace {
                 }
             }
             emailProcessingSystem = softwareSystem "Email Processing" {
-                emailAgents = container "Email Agents" "Agents talk to Email providers" {
-                    agentX = component "Email Agent X" "Polls a specific Email Provider periodically"
-                    agentY = component "Email Agent Y" "Polls a specific Email Provider periodically"
-                }
+                emailAgents = container "Email Agents" "Provider specific Agents talk to their Email providers and poll for any new trip booking" 
                 
-                emailAgentScheduler = container "Email Agent Scheduler"
+                emailAgentScheduler = container "Email Agent Scheduler" "Schedules a new agent to start polling for new trip booking"
 
-                emailSupervisor = container "Supervisor" 
+                emailSupervisor = container "Supervisor" "Monitors the status of the polling job in the state store, and requests for any failed job to be reattempted"
 
-                emailProcessStateStore = container "State Store" "Used to store state and user settings for Email polling" {
+                emailProcessStateStore = container "State Store" "Stores polling job states and user's email polling preferences" {
                     tags "Database"
                 }
 
-                tripNotifier = container "Trip Notifier"
+                tripNotifier = container "Trip Notifier" "Update the Trip management microservice with a new trip booking"
 
-                emailEndpoint = container "Email Endpoint"
+                emailEndpoint = container "Email Endpoint" "Provides API endpoints to receive any new manually forwarded booking details. It also connects with email providers to update forwarding rules."
 
                 emailAgents -> emailServiceProvider "polls"
-                emailAgentScheduler -> agentX "schedules"
-                emailAgentScheduler -> agentY "schedules"
-                agentX -> emailServiceProvider
-                agentY -> emailServiceProvider
+                emailAgentScheduler -> emailAgents "schedules"
+        
+                emailAgents -> emailServiceProvider
+      
                 // emailAgentScheduler -> emailAgents "schedules"
                 emailAgentScheduler -> emailProcessStateStore "updates state"
                 emailSupervisor -> emailAgentScheduler "manages"
@@ -174,12 +171,7 @@ workspace {
             autoLayout
         }
 
-        component emailAgents "EmailAgentContainer" {
-            include *
-            autoLayout
-        }
-
-
+      
         systemContext tripManagementSystem "tripManagement" {
             include *
             autoLayout
