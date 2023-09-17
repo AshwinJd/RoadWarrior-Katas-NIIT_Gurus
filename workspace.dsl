@@ -92,35 +92,35 @@ workspace {
                 }
             }
             emailProcessingSystem = softwareSystem "Email Processing" {
-                emailAgents = container "Email Agents" "Agents talk to Email providers" {
-                    agentX = component "Email Agent X" "Polls a specific Email Provider periodically"
-                    agentY = component "Email Agent Y" "Polls a specific Email Provider periodically"
-                }
+                emailAgents = container "Email Agents" "Provider specific Agents talk to their Email providers and poll for any new trip booking" 
                 
-                emailAgentScheduler = container "Email Agent Scheduler"
+                emailAgentScheduler = container "Email Agent Scheduler" "Schedules a new agent to start polling for new trip booking"
 
-                emailSupervisor = container "Supervisor" 
+                emailSupervisor = container "Supervisor" "Monitors the status of the polling job in the state store, and requests for any failed job to be reattempted"
 
-                emailDatabase = container "Email Database" "Used to store state and user settings for Email polling" {
+                emailProcessStateStore = container "State Store" "Stores polling job states and user's email polling preferences" {
                     tags "Database"
                 }
 
-                tripNotifier = container "Trip Notifier"
+                tripNotifier = container "Trip Notifier" "Update the Trip management microservice with a new trip booking"
 
-                emailEndpoint = container "Email Endpoint"
+                emailEndpoint = container "Email Endpoint" "Provides API endpoints to receive any new manually forwarded booking details. It also connects with email providers to update forwarding rules."
 
                 emailAgents -> emailServiceProvider "polls"
-                emailAgentScheduler -> agentX "schedules"
-                emailAgentScheduler -> agentY "schedules"
-                agentX -> emailServiceProvider
-                agentY -> emailServiceProvider
+                emailAgentScheduler -> emailAgents "schedules"
+        
+                emailAgents -> emailServiceProvider
+      
                 // emailAgentScheduler -> emailAgents "schedules"
-                emailAgentScheduler -> emailDatabase "updates state"
+                emailAgentScheduler -> emailProcessStateStore "updates state"
                 emailSupervisor -> emailAgentScheduler "manages"
-                emailSupervisor -> emailDatabase "updates state"
+                emailSupervisor -> emailProcessStateStore "updates state"
                 emailAgents -> tripNotifier "received new trip"
                 tripNotifier -> tripManagementEndpoint "Reports New Booking"
                 emailEndpoint -> tripNotifier "manual email trip update"
+                loadBalancer -> emailEndpoint "Proxies"
+                emailEndpoint -> emailServiceProvider "manages"
+                emailEndpoint -> emailProcessStateStore "store user specific email configurations"
             }
 
             analyticsSystem = softwareSystem "Analytics System"
@@ -133,7 +133,7 @@ workspace {
         serviceProviderTrackingSystem -> loadBalancer "Reports updates"
         loadBalancer -> oidcProvider "Proxies"
         loadBalancer -> analyticsSystem "Proxies"
-        loadBalancer -> emailProcessingSystem "Proxies"
+        // loadBalancer -> emailProcessingSystem "Proxies"
         tripManagementSystem -> gdsPlatform "Retrieves booking details from"
         tripManagementSystem -> serviceProviderTrackingSystem "Retrieves booking details from"
         realtimeTrackingSubscriber -> realtimeTrackingSystem "Subscribes to updates"
@@ -171,12 +171,7 @@ workspace {
             autoLayout
         }
 
-        component emailAgents "EmailAgentContainer" {
-            include *
-            autoLayout
-        }
-
-
+      
         systemContext tripManagementSystem "tripManagement" {
             include *
             autoLayout
