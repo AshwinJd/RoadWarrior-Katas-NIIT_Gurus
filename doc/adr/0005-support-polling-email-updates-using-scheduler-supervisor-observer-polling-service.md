@@ -8,12 +8,17 @@ Accepted
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+Supervising and starting multiple email pollers for different email providers. Should run periodically and is managed based on user settings and preferences.
 
 ## Decision
 
-The change that we're proposing or have agreed to implement.
+Use Scheduler supervisor pattern to manage set of distributed actions as a single operation. 
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+Pros: 
+1. This can add resiliency to a distributed system, by enabling it to recover and retry actions that fail due to transient exceptions, long-lasting faults, and process failures.
+
+Cons:
+1. Polling jobs are expensive.
+2. Lot of API requests to check for new booking mail. Majority of the API requests would yield empty results.
