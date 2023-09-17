@@ -101,7 +101,7 @@ workspace {
 
                 emailSupervisor = container "Supervisor" 
 
-                emailDatabase = container "Email Database" "Used to store state and user settings for Email polling" {
+                emailProcessStateStore = container "State Store" "Used to store state and user settings for Email polling" {
                     tags "Database"
                 }
 
@@ -115,12 +115,14 @@ workspace {
                 agentX -> emailServiceProvider
                 agentY -> emailServiceProvider
                 // emailAgentScheduler -> emailAgents "schedules"
-                emailAgentScheduler -> emailDatabase "updates state"
+                emailAgentScheduler -> emailProcessStateStore "updates state"
                 emailSupervisor -> emailAgentScheduler "manages"
-                emailSupervisor -> emailDatabase "updates state"
+                emailSupervisor -> emailProcessStateStore "updates state"
                 emailAgents -> tripNotifier "received new trip"
                 tripNotifier -> tripManagementEndpoint "Reports New Booking"
                 emailEndpoint -> tripNotifier "manual email trip update"
+                loadBalancer -> emailEndpoint "Proxies"
+                emailEndpoint -> emailServiceProvider "manages"
             }
 
             analyticsSystem = softwareSystem "Analytics System"
@@ -133,7 +135,7 @@ workspace {
         serviceProviderTrackingSystem -> loadBalancer "Reports updates"
         loadBalancer -> oidcProvider "Proxies"
         loadBalancer -> analyticsSystem "Proxies"
-        loadBalancer -> emailProcessingSystem "Proxies"
+        // loadBalancer -> emailProcessingSystem "Proxies"
         tripManagementSystem -> gdsPlatform "Retrieves booking details from"
         tripManagementSystem -> serviceProviderTrackingSystem "Retrieves booking details from"
         realtimeTrackingSubscriber -> realtimeTrackingSystem "Subscribes to updates"
