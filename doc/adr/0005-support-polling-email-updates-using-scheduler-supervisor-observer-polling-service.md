@@ -12,7 +12,7 @@ Supervising and starting multiple email pollers for different email providers. S
 
 ## Decision
 
-We need to work with multiple email providers and kickoff multiple polling jobs and maintain the state of each polling job and constantly look for any failures.
+We need to work with multiple email providers and kickoff multiple polling jobs for different users and maintain the state of each polling job and constantly look for any failures.
 We can manage set of distributed actions as a single operation using the Scheduler supervisor pattern.
 
 ## Consequences
